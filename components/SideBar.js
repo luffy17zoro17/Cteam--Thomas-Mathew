@@ -18,7 +18,7 @@ const SideBar = () => {
             <div key={item.id} className={`flex items-center gap-4
               border-l-[0.2rem] border-b-[0.2rem] rounded-full px-5 w-[13rem]
               cursor-pointer hover:text-purple-600 hover:-rotate-3
-               transition detay-120 duration-300
+               transition delay-120 duration-300
              ${item.id===4 ? `mb-[13rem] pb-3` : `mb-6 pb-3`}`}>
                <IconProp icon={item.icon}/>
                <TextProp title={item.title}/> 

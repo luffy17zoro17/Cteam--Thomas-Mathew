@@ -43,7 +43,7 @@ const Navbar = () => {
               inputClassN={`outline-none py-2 pl-11 border-x-[0.2rem] rounded-full border-white
                 bg-transparent text-white placeholder-white font-bold w-[40rem]
                  hover:border-purple-600
-                 hover:border-b transition detay-120 duration-300`}
+                 hover:border-b transition delay-120 duration-300`}
             />
            </div>
          </div>  
@@ -57,7 +57,7 @@ const Navbar = () => {
                      iconDivClassN={`border-x-[0.2rem] border-white
                      cursor-pointer hover:text-purple-600 flex 
                      items-center rounded-full p-2
-                     hover:rotate-180 transition detay-120 duration-300`}
+                     hover:rotate-180 transition delay-120 duration-300`}
                    />
                 </div>  
               ))}
@@ -71,7 +71,7 @@ const Navbar = () => {
                  imgAlt={`Profile_pic`}
                  imgClassN={`h-[2.5rem] w-[2.5rem] border-x-[0.2rem]
                    object-cover rounded-full border-white cursor-pointer
-                   hover:rotate-180 transition detay-120 duration-300`}
+                   hover:rotate-180 transition delay-120 duration-300`}
               />
               <TextProp title={`Thomas Mathew`}/>
            </div>

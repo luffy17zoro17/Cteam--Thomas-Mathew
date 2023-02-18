@@ -21,7 +21,7 @@ const BackgroundImage = () => {
             imgWd={19000}
             imgAlt={""}
             imgClassN={`h-screen w-screen object-cover
-             fixed z-[-10]
+             fixed z-[-10] transition delay-120 duration-300
               ${BlurValue===0 ? `blur-xl` : BlurValue===1 ? `blur-md` : BlurValue===2 ? `blur-sm` : ``}`}
             
           />
