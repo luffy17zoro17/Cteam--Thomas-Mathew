@@ -26,9 +26,9 @@ export default function Home() {
         <Navbar/>
       </header>
       <main className="">
-        <div className={`transition-opacity delay-120 duration-300 ${BlurValue===4 ? `hidden` : `block`}`}><SideBar/></div>
+        <div className={`transition-opacity delay-120 duration-300 ${BlurValue===4 ? `opacity-0` : `visible`}`}><SideBar/></div>
          <BackgroundImage/>
-          <div className={`transition-opacity delay-120 duration-300 ${BlurValue===4 ? `hidden` : `block`}`}><Screen/></div>
+          <div className={`transition-opacity delay-120 duration-300 ${BlurValue===4 ? `opacity-0` : `visible`}`}><Screen/></div>
          <BlurModeButton/>
       </main>
     
